@@ -1,0 +1,40 @@
+div.todo-board {
+	margin-left: 18em;
+    margin-right: 18em;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px, 
+    			rgba(0, 0, 0, 0.1) 0px 25px 50px 0px;
+				0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+				0 25px 50px 0 rgba(0, 0, 0, 0.1)
+}
+
+input.todo-input {
+	width: -webkit-fill-available;
+	font-size: inherit;
+	font-family: inherit;
+	padding: 0.5em;
+	border: none;
+	border-bottom-color: rgb(237, 237, 237);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+ul.task-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li.task-list-item {
+	padding: 0.5em;
+	border-bottom-color: rgb(237, 237, 237);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(237,237,237);
+    font-style: italic;
+    opacity: 1; /* Firefox */
+}
